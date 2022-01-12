@@ -135,4 +135,25 @@ hr{
 
 
 
+    /* Mobile device */
+    @media only screen and (max-width:688px){
+        .container{
+            width: 100%;
+        }
+        .players,.blogs,.courses{
+            grid-template-columns: repeat(1,1fr);
+         
+        }
+        .blog .thumbnail img{
+           margin-left: 100px
+        }
+      
+        .player,.blog{
+            flex-direction: column;
+        }
+        
+    }
+
+    /* Mobile device end */
+
 
