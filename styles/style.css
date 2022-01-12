@@ -98,12 +98,14 @@ hr{
 
     /* courses style */
     .courses{
-        display: flex;
-       
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 24px;
     }
 
     .course{
-        margin-left: 24px;
+        width: 252.44px;
+        box-shadow: #F3F1FF;
     }
     .courses .course-banner img{
         width: 224px;
