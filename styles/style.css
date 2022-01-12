@@ -26,6 +26,7 @@ main{
     width: 870px;
     padding: 30px;
     margin-top: 21px;
+    border-radius: 5px;
 
 }
 /* common */
@@ -93,6 +94,42 @@ hr{
     background-color: #562EFF;
     margin-bottom: 24px;
 }
+
+
+    /* courses style */
+    .courses{
+        display: flex;
+       
+    }
+
+    .course{
+        margin-left: 24px;
+    }
+    .courses .course-banner img{
+        width: 224px;
+        height: 104px;
+    }
+
+    .course-title{
+        color: black;
+    }
+
+    .course-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fa-star{
+        font-size: 12px;
+    }
+    .fa-star.filled{
+        color: #FFC014;
+    }
+    .fa-star.empty{
+        color: #AEAEAE;
+    }
+
+    /* courses style */
 
 
 
